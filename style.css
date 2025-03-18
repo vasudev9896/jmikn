@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe6f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.proposal-container {
+    margin-top: 10%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ff4081;
+}
+
+.cute-gif {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#yes-button {
+    background-color: #ff80ab;
+    color: white;
+}
+
+#yes-button:hover {
+    background-color: #ff4081;
+}
+
+#no-button {
+    background-color: #cccccc;
+    color: #333;
+}
+
+#no-button:hover {
+    background-color: #999999;
+}
+
